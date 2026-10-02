@@ -33,7 +33,7 @@ if(isset($_POST["zapisz"])) //zapisywanie oceny, przechowywanie danych
 <h1>Dziennik ocen</h1>
 
 
-<form method="POST"> 
+<form method="POST" action=""> 
 
     Imię i nazwisko ucznia:
     <input type="text" name="uczen">
